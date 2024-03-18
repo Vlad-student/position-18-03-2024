@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+width: 80%;
+height: 800px;
+margin: auto;
+background-color: rgba(0, 255, 255, 0.537);
+}
+
+.parent{
+width: 50%;
+height: 50%;
+background-color: rgba(178, 34, 34, 0.507);
+}
+
+.child{
+width: 50px;
+height: 50px;
+background-color: rgba(255, 255, 0, 0.639);
+border: 1px solid black;
+}
+
+.child:hover{
+    background-color: rgb(121, 65, 198);
+}
+
+.fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.relative{
+    position: relative;
+    /* top: 30px;
+    left: 20px; */
+}
+
+.absolute{
+    position: absolute;
+    /* top: 20px; */
+    right: 0;
+    bottom: 0 ;
+    z-index: 999;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
